@@ -1,0 +1,149 @@
+Build a complete mobile-first PWA for gated society management inspired by NoBrokerHood, with all modules and features included in Phase 1. Prioritize mobile performance, role-based access, and Indian gated society workflows.
+
+✅ Rules:
+- No Firebase or Replit Auth – only OTP login (mobile/email)
+- Let Replit choose the tech stack
+- Include service worker + manifest (PWA support)
+- All screens mobile-first and simple for guards/residents
+
+---
+
+🎯 Core Modules to Include:
+
+1. 🔐 Gate & Visitor Management  
+   - Guard login  
+   - Add visitor (type, name, flat, phone, optional photo)  
+   - Resident approval (modal/simulated WhatsApp)  
+   - Repeat visitor alert  
+   - QR pass (event/guest)  
+   - Offline sync  
+   - Exportable logs  
+   - Panic button  
+
+2. 👷‍♂️ Staff & Daily Worker Management  
+   - Add staff (maid, driver, etc.) with photo  
+   - Daily check-in/out log  
+   - Missed day alert  
+   - Resident feedback/block  
+
+3. 🧑‍🤝‍🧑 Flat & Resident Management  
+   - Flat list (owner/tenant distinction)  
+   - Admin-managed resident data  
+   - ID proof upload  
+   - Move-in/out log  
+   - OTP-based login only  
+
+4. 📣 Announcements, Polls & Wall  
+   - Notices (Emergency, General, Event)  
+   - Polls with one-vote-per-flat  
+   - Community wall (comments optional)  
+   - WhatsApp-style simulated alerts  
+
+5. 🛠️ Complaint Tracker  
+   - Raise ticket (title, image, issue)  
+   - Assign to vendor/staff  
+   - Auto-escalate unresolved items  
+   - Resident feedback + reopen option  
+
+6. 💰 Maintenance Billing with In-App Payments  
+   - Auto maintenance generator (monthly/quarterly)  
+   - Flat-wise due, paid, unpaid  
+   - Auto late fee logic  
+   - In-app UPI/card payments (India only)  
+   - Manual payment entry (cash)  
+   - Residents get link or QR to pay  
+   - Ledger view per flat  
+   - WhatsApp/SMS reminders (simulated)
+
+7. 📦 Delivery & Vendor Entry  
+   - One-tap guard check-in  
+   - Swiggy, Amazon, Zomato style tags  
+   - Drop at gate / Deliver to door toggle  
+   - Whitelist vendors  
+
+8. 📅 Amenities Booking  
+   - Admin adds amenities with time slots  
+   - Residents can book  
+   - Prevent double booking  
+   - Cancel/rebook access  
+
+9. 🗃 Document Repository  
+   - Admin uploads PDF/image  
+   - Tag by category (Audit, Bylaws, Notices)  
+   - Residents can view/download  
+
+---
+
+🧰 Advanced & Premium Modules:
+
+10. 🧾 Admin Audit Log  
+    - Track admin actions (login, data edits, uploads)  
+
+11. 🚨 Security Watchlist  
+    - Maintain blocked visitors/vendors with alerts at gate  
+
+12. 📦 Inventory Tracking  
+    - Track tools and society assets  
+    - Assign to complaints or common areas  
+    - Add purchase and usage history  
+
+13. 💬 Internal Messaging  
+    - Resident ↔️ Committee/Guard messaging  
+    - Simple inbox per user  
+
+14. 🌐 Multilingual UI  
+    - English, Hindi, Gujarati  
+    - JSON-based i18n, toggle per user  
+
+15. 🕹️ Multi-Society Support  
+    - Scalable to multiple societies under one admin  
+    - Separate data per society  
+
+16. 📞 Internal Voice Calling (WebRTC)  
+    - Guard ↔️ Resident app-to-app calling  
+    - WebRTC integration (PWA friendly)  
+    - No phone number sharing  
+    - Call log viewable per flat  
+
+---
+
+💸 Extended Finance Management System (Society-Level Accounting):
+
+17. 📊 Income Tracking  
+    - Auto-income from maintenance & deposits  
+    - Add manual income (hall rent, donations)  
+    - Track income by source + date  
+
+18. 📉 Expense Tracking  
+    - Category-wise entries (Electricity, Cleaning, Repairs)  
+    - Attach bills (PDF/image)  
+    - Payment mode, notes, recurring cost toggle  
+
+19. 📋 Admin Finance Dashboard  
+    - Add/Edit/Delete entries  
+    - Filters by date/category  
+    - Upload expense bills  
+    - Export reports (PDF/CSV)
+
+20. 🧾 Resident Finance Dashboard  
+    - Monthly, Quarterly, Yearly society balance summary  
+    - Total balance = maintenance + security deposit + bank  
+    - Income vs. Expense chart  
+    - Downloadable report per period  
+    - Resident can view but not edit data  
+
+21. 🔐 Access Roles  
+    - Admin: full finance access  
+    - Auditor (optional role): view-only  
+    - Residents: summary view with breakdown  
+
+---
+
+📦 Output Requirements:
+- Folder structure: frontend, backend, static  
+- TailwindCSS for UI  
+- Offline support for guard entry  
+- Seed data: flats, residents, guards, staff, sample bills  
+- README with setup instructions  
+
+Make this a production-grade Replit-compatible PWA SaaS tool for Indian gated communities. Prioritize ease of use, security, and extensibility.
