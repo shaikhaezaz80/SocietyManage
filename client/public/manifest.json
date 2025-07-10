@@ -1,0 +1,49 @@
+{
+  "name": "GateSphere - Smart Society Management",
+  "short_name": "GateSphere",
+  "description": "Complete solution for gated society management with visitor tracking, payments, and community features",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#25D366",
+  "theme_color": "#25D366",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMzIiIGZpbGw9IiMyNUQzNjYiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDNjMS42NiAwIDMgMS4zNCAzIDNzLTEuMzQgMy0zIDMtMy0xLjM0LTMtM3MxLjM0LTMgMy0zem0wIDEyLjJjLTIuNSAwLTQuNzEtMS4yOC02LTMuMjJjLjAzLTEuOTkgNC00IDYtNHM1Ljk3IDIuMDEgNiA0Yy0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgo8L3N2Zz4KPC9zdmc+",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iODYiIGZpbGw9IiMyNUQzNjYiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTNzMS4zNC0zIDMtM3ptMCAxMi4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyYy4wMy0xLjk5IDQtNCA2LTRzNS45NyAyLjAxIDYgNGMtMS4yOSAxLjk0LTMuNSAzLjIyLTYgMy4yMnoiLz4KPC9zdmc+Cjwvc3ZnPg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Visitor",
+      "short_name": "Visitor",
+      "description": "Quickly add a new visitor",
+      "url": "/visitors?action=add",
+      "icons": [{"src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjMjVEMzY2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNSAxMmMyLjIxIDAgNC0xLjc5IDQtNHMtMS43OS00LTQtNC00IDEuNzktNCA0IDEuNzkgNCA0IDR6bS02IDJjMi42NyAwIDgtMS4zNCA4LTR2LTJjMC0yLjY2LTUuMzMtNC04LTRzLTggMS4zNC04IDR2MmMwIDIuNjYgNS4zMyA0IDggNHptMCAydjZIOXYtNkg3djhoMTR2LThoLTJ2NmgtNnoiLz48L3N2Zz4=", "sizes": "192x192"}]
+    },
+    {
+      "name": "Raise Complaint",
+      "short_name": "Complaint",
+      "description": "Report an issue",
+      "url": "/complaints?action=add",
+      "icons": [{"src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjRkY5ODA4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xIDIxaDIybC0xLTJIMlYyaDIwdjE3bC0xIDJWMkgydjE5em0xMC0xM2MuNTUgMCAxIC40NSAxIDFzLS40NSAxLTEgMS0xLS40NS0xLTEgLjQ1LTEgMS0xem0xIDRoLTJ2Nmgydi02eiIvPjwvc3ZnPg==", "sizes": "192x192"}]
+    },
+    {
+      "name": "Pay Bills",
+      "short_name": "Bills",
+      "description": "Pay maintenance bills",
+      "url": "/maintenance?tab=bills",
+      "icons": [{"src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjMTA5OUZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMCA0SDRjLTEuMTEgMC0xLjk5Ljg5LTEuOTkgMkwyIDEyYzAgMS4xMS44OSAyIDIgMmgxNmMxLjExIDAgMi0uODkgMi0yVjZjMC0xLjExLS44OS0yLTItMnptLTggNGMxLjEgMCAyIC45IDIgMnMtLjkgMi0yIDItMi0uOS0yLTIgLjktMiAyLTJ6bS04IDBoNGMuNTUgMCAxIC40NSAxIDFzLS40NSAxLTEgMS00LS40NS00LTEgLjQ1LTEgMS0xem0xMiAwaDRjLjU1IDAgMSAuNDUgMSAxcy0uNDUgMS0xIDEtNC0uNDUtNC0xIC40NS0xIDEtMXoiLz48L3N2Zz4=", "sizes": "192x192"}]
+    }
+  ]
+}
